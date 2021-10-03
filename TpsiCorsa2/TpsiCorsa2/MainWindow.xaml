@@ -1,0 +1,17 @@
+﻿<Window x:Class="TpsiCorsa2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TpsiCorsa2"
+        mc:Ignorable="d"
+        Title="" Height="450" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Image x:Name="imgSfondo" HorizontalAlignment="Left" Height="421" VerticalAlignment="Top" Width="794" Source="spazioSfondo.png" Stretch="UniformToFill"/>
+        <Image x:Name="imgRazzo1" HorizontalAlignment="Left" Height="74" Margin="0,19,0,0" VerticalAlignment="Top" Width="97" Source="razzo1.png"/>
+        <Image x:Name="imgRazzo2" HorizontalAlignment="Left" Height="74" Margin="0,107,0,0" VerticalAlignment="Top" Width="97" Source="razzo2.png"/>
+        <Image x:Name="imgRazzo3" HorizontalAlignment="Left" Height="74" Margin="0,324,0,0" VerticalAlignment="Top" Width="97" Source="razzo3.png"/>
+        <Button x:Name="btnInizia" Content="Inizia" HorizontalAlignment="Left" Margin="799,353,0,0" VerticalAlignment="Top" Width="176" Click="btnInizia_Click" Height="45" />
+        <ListBox x:Name="lstPodio" HorizontalAlignment="Left" Height="338" Margin="799,10,0,0" VerticalAlignment="Top" Width="176"/>
+    </Grid>
+</Window>
